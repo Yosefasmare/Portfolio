@@ -42,7 +42,7 @@ export default async function Home() {
   
 
   return (
-    <div className="h-[70vh] md:h-screen bg-black relative">
+    <div className="min-h-screen bg-black relative">
       <Navbar />
      
       <AuroraBackground className="absolute inset-0 z-0  " />
@@ -79,7 +79,7 @@ export default async function Home() {
 
       </section>
 
-      <section id="about" className="w-full h-[99vh] flex flex-col justify-center items-center gap-3">
+      <section id="about" className="w-full min-h-[99vh] flex flex-col justify-center items-center gap-3">
 
         
                <RevealWrapper>
@@ -149,13 +149,13 @@ export default async function Home() {
 
       <section className="w-full p-9 flex flex-col items-center">
             <RevealWrapper>
-                <h1 className="text-3xl md:text-5xl font-extrabold text-white">Kind words from <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-yellow-500 to-red-500">satisfied clients</span> </h1>
+                <h1 className="text-3xl md:text-5xl font-extrabold text-white text-center">Kind words from <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-yellow-500 to-red-500">satisfied clients</span> </h1>
             </RevealWrapper>
             <RevealWrapper delay={0.3}>
                <div className="pt-6 w-full">
                 {TestmonyRes.length == [] ?
                    <div className="w-full p-4 flex justify-center items-center">
-                       <h1 className="text-2xl font-bold text-gray-200">No Client Testimony At This Moment!</h1>
+                       <h1 className="text-2xl font-bold text-gray-200 text-center">No Client Testimony At This Moment!</h1>
                    </div>
                 :  
                    <InfiniteMovingCards
@@ -196,7 +196,7 @@ export default async function Home() {
            </RevealWrapper>
       </section>
 
-      <section id="contact" className="w-full p-5 flex flex-col justify-center items-center gap-1 h-[85vh]">
+      <section id="contact" className="w-full p-5 flex flex-col justify-center items-center gap-1 min-h-[85vh]">
            <h1 className="p-20 text-6xl text-white text-center font-extrabold"> 
            Ready to elevate <span  className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-yellow-500 to-red-500">your digital presence?</span>  
            </h1>
