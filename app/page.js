@@ -79,7 +79,7 @@ export default async function Home() {
 
       </section>
 
-      <section id="about" className="w-full min-h-[99vh] flex flex-col justify-center items-center gap-3">
+      <section id="about" className="w-full pt-20 md:pt-0 min-h-[99vh] flex flex-col justify-center items-center gap-3">
 
         
                <RevealWrapper>
