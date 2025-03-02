@@ -20,7 +20,7 @@ const Navbar = () => {
     animate={{opacity:1,y:0}}
     transition={{duration: 0.8, ease: 'easeInOut'}}
     className='w-full fixed p-5 justify-center items-center flex bg-none transition ease-in-out z-50'>
-        <nav className=' lg:w-[500px] w-[600px] h-[50px] py-3 px-6 flex    border border-gray-700   rounded-md bg-[#121212]'>
+        <nav className=' lg:w-[500px] w-[400px] h-[50px] py-3 px-6 flex    border border-gray-700   rounded-md bg-[#121212]'>
              <ul className='flex w-full justify-around items-center '>
              {Links.map(link => (
                      <li 
