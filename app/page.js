@@ -40,7 +40,7 @@ export default async function Home() {
   
 
   return (
-    <div className="min-h-screen bg-black relative">
+    <div className="min-h-screen bg-black relative overflow-hidden">
       <Navbar />
      
       <AuroraBackground className="absolute inset-0 z-0  " />
@@ -84,12 +84,12 @@ export default async function Home() {
                  <h1 className="font-bold text-transparent bg-clip-text underline text-4xl md:text-6xl italic bg-gradient-to-r from-green-500 via-yellow-500 to-red-500">Get to Know Me!</h1>
                </RevealWrapper>
               
-                  <RevealWrapper delay={0.4}>
-                    <h3 className="text-2xl text-white">
+                  <RevealWrapper delay={0.2}>
+                    <h3 className="text-2xl text-white text-center">
                     🚀 Passionate Next.js Developer | Ethiopia
                     </h3>
                   </RevealWrapper>
-                  <RevealWrapper delay={0.6}>
+                  <RevealWrapper delay={0.36}>
                        <p className="text-lg text-gray-200 text-center p-6">
                        I'm a Next.js developer with a passion for building fast, 
                        modern, and scalable web applications. With expertise in React, 
@@ -97,12 +97,12 @@ export default async function Home() {
                         experiences that prioritize performance, accessibility, and user experience.
                        </p>
                   </RevealWrapper>
-                  <RevealWrapper delay={0.8}>
+                  <RevealWrapper delay={0.5}>
                     <h3 className="text-2xl text-white">
                     🌍 Bringing Ideas to Life
                     </h3>
                   </RevealWrapper>
-                  <RevealWrapper delay={1}>
+                  <RevealWrapper delay={0.73}>
                        <p className="text-lg text-gray-200 text-center p-6">
                        Whether it's a personal portfolio, an e-commerce platform, or
                         a SaaS product, I leverage cutting-edge technologies to turn ideas
@@ -111,19 +111,19 @@ export default async function Home() {
                       
                        </p>
                   </RevealWrapper>
-                  <RevealWrapper delay={1.2}>
+                  <RevealWrapper delay={0.9}>
                     <h3 className="text-2xl text-white">
                     ✨ Let's Build Something Amazing
                     </h3>
                   </RevealWrapper>
-                  <RevealWrapper delay={1.4}>
+                  <RevealWrapper delay={1}>
                        <p className="text-lg text-gray-200 text-center p-6">
                            If you're looking for a developer who values clean code, great UI/UX, and efficiency, 
                            let's connect and create something impactful!
                        </p>
                   </RevealWrapper>
 
-                 <RevealWrapper delay={1.6}>
+                 <RevealWrapper delay={1.1}>
                         <EmailCopy />
                  </RevealWrapper>
 
