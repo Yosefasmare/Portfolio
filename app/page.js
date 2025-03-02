@@ -131,7 +131,7 @@ export default async function Home() {
 
       <section id="projects" className="w-full p-4 flex flex-col items-center gap-5">
         <RevealWrapper>
-        <h1 className="text-3xl md:text-5xl font-extrabold text-white">Some Of My <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-yellow-500 to-red-500">Recent Projects</span></h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-white text-center">Some Of My <span className=" text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-yellow-500 to-red-500">Recent Projects</span></h1>
         </RevealWrapper>
            <div className="flex flex-wrap p-2 gap-3">
                 {ProjectRes.length === 0 ? 
