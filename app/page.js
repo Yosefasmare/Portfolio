@@ -47,7 +47,7 @@ export default async function Home() {
      
       <AuroraBackground className="absolute inset-0 z-0  " />
       
-      <section className="relative w-full h-full  overflow-hidden flex flex-col items-center justify-center">
+      <section className="relative w-full h-[100vh]  overflow-hidden flex flex-col items-center justify-center">
         
           <div className="flex flex-col w-full p-5 items-center justify-center   text-white ">
        <RevealWrapper  >
