@@ -20,7 +20,7 @@ export function GlowingCard({ width = 400, height = 200, children }) {
 
   return (
     <div
-      className="relative flex items-center justify-center bg-white/10 backdrop-blur-md rounded-[15px] overflow-hidden border border-white/20 shadow-xl"
+      className="relative flex items-center justify-center bg-white/10 backdrop-blur-md rounded-[15px] w-[300px] md:w-[500px]  h-[180px] overflow-hidden border border-white/20 shadow-xl"
       style={{ width, height }}
     >
       {/* Moving Glow Effect */}
