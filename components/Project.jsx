@@ -7,7 +7,7 @@ import { urlFor } from '@/sanity/lib/image'
 
 const Project = ({title,url,banner,desc,techUsed}) => {
   return (
-    <div className='flex flex-col w-[500px] h-[530px] border-2 border-gray-600 rounded-xl overflow-hidden'>
+    <div className='flex flex-col w-[350px] md:w-[500px] h-[450px] md:h-[530px] border-2 border-gray-600 rounded-xl overflow-hidden'>
          <div className='w-full h-[60%] flex justify-center items-center bg-gray-900 overflow-hidden p-3  object-cover '>
            <Image src={banner} alt='project pic' width={700} height={700} className='w-full object-contain rounded-xl' />
          </div>
