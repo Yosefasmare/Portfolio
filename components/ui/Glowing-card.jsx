@@ -3,7 +3,7 @@
 import React, { useRef } from "react";
 import { motion, useAnimationFrame, useMotionValue, useTransform } from "framer-motion";
 
-export function GlowingCard({ width = 400, height = 200, children }) {
+export function GlowingCard({ children }) {
   const pathRef = useRef(null);
   const progress = useMotionValue(0);
 
@@ -21,7 +21,6 @@ export function GlowingCard({ width = 400, height = 200, children }) {
   return (
     <div
       className="relative flex items-center justify-center bg-white/10 backdrop-blur-md rounded-[15px] w-[300px] md:w-[500px]  h-[180px] overflow-hidden border border-white/20 shadow-xl"
-      style={{ width, height }}
     >
       {/* Moving Glow Effect */}
       <motion.div
