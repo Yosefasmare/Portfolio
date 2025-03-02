@@ -19,13 +19,13 @@ const Project = ({title,url,banner,desc,techUsed}) => {
             <div className='w-full p-4 bottom-0 flex justify-around  '>
                 <div className='w-[60%] h-full flex justify-start'>
                     {techUsed.map(tech=>(
-                        <div key={tech._key} className='w-[20px] md:w-[40px] h-[20px] md:h-[40px] rounded-full p-2 justify-center items-center  '>
+                        <div key={tech._key} className='w-[35px] md:w-[40px] h-[35px] md:h-[40px] rounded-full p-2 justify-center items-center  '>
                               <Image src={urlFor(tech).width(800).height(800).url()} height={800} width={800} alt='tech used'  className='w-full h-full '/>
                         </div>
                     ))}
                 </div>
                 <div className='w-[40%] flex h-full'>
-                          <Link href={url} className='md:text-lg text-md font-bold text-purple-400 gap-2 flex justify-center items-center'>
+                          <Link href={url} className='md:text-lg text-sm font-semibold md:font-bold text-purple-400 gap-2 flex justify-center items-center'>
                           Check Live Site
                           <MoveUpRight />
                            </Link>
