@@ -178,7 +178,7 @@ export default async function Home() {
              <RevealWrapper delay={0.2}>
                <div className="w-full p-3 flex flex-wrap items-center justify-center gap-4">
                 {Skills.map(skill=>(
-                    <GlowingCard width={450} height={190} key={skill.title}>
+                    <GlowingCard key={skill.title}>
                         <div className="w-full h-full flex p-2 gap-3">
                             <div className="w-2/5 h-full justify-center items-center p-3">
                                    <Image src={skill.svg} alt="svg"  className="scale-[4] -z-10"/>
